@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Nav from "../components/Nav/Nav.js";
+import Nav from "../components/Nav/Nav";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
 const Home: NextPage = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
 
       <main>
         <Nav></Nav>
+        <Jumbotron></Jumbotron>
       </main>
 
       <footer></footer>

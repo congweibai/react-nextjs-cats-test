@@ -11,6 +11,7 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   const { id } = req.query;
+  console.log("idid", req);
   const cat = cats.find((cat) => cat.id === Number(id));
   res.status(200).json(cat);
 }

@@ -15,7 +15,7 @@ export default function Card({
     url: string;
     alt: string;
   };
-  id: string;
+  id: number;
 }) {
   return (
     <div className={styles.card}>

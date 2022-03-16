@@ -1,3 +1,18 @@
+export interface Cat {
+  id: number;
+  name: string;
+  phone: string;
+  email: string;
+  image: {
+    url: string;
+    alt: string;
+  };
+  favoured: boolean;
+  description: string;
+  color: string;
+  gender: string;
+}
+
 export const cats = [
   {
     id: 1,
